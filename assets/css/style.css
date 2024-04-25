@@ -1,0 +1,217 @@
+
+ /* Modificadores generales */
+body {
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mensaje__enviado{
+    display: flex;
+    width: 80px;
+    height: 30px;
+    background-color: #c7ccd0;
+    color: #0a082a;
+    font-size: 1em;
+    border-radius: 30%;
+    align-items: center;
+    justify-content: center;
+    margin: .6em;
+
+}
+
+/* Estilos del perfil */
+.Perfil {
+    background-color: #ddecf6;
+    
+}
+
+/* Contenedor de todo el contenido */
+.ContenedorTodo {
+    display: flex;
+    border-bottom: 0.9px solid #FFFFFF;
+}
+
+/* Estilos para el botón de nuevo chat */
+
+.Container__Chat__new {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 5px;
+    border-bottom: 0.9px solid #FFFFFF;
+}
+
+.newChat {
+    width: 10em;
+    height: 5em;
+    margin: 20px;
+    padding: 5px;
+}
+
+.newChat:hover {
+    background-color: #1F618D;
+    color: #c9c8d7;
+    transform: scale(0.8);
+    transition-duration: 600ms;
+}
+
+/* Estilos para los elementos del chat */
+
+/*area de activo e inactivo*/
+.Chat__img__button{
+    border-style: none;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+}
+.Chat__img {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    margin: 5px;
+}
+.Chat__img__activo{
+
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    max-width: 100%;
+    max-height: auto;
+    
+}
+.Container__Chat {
+    background-color: #ddecf6;
+    scroll-behavior: smooth;
+    height: 100vh;
+    overflow-y: scroll; 
+}
+
+.Container__Chat__elementos {
+    display: flex;
+    border-bottom: 0.9px solid #FFFFFF;
+    padding: 5px;
+}
+
+.Chat__txt {
+    justify-content: center;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-bottom: 0.3em;
+}
+
+/* Estilos para los elementos de texto en el chat */
+.Container__Chat__h2 {
+    font-size: 1.3em;
+}
+
+.Container__Chat__hora{
+    font-size: 0.9em;
+
+}
+
+.Container__Chat__p {
+    font-size: 1.0em;
+    text-align: center;
+}
+
+
+
+/* Estilos para los contenedores individuales de chat */
+
+.Container__Chat__1:hover,
+.Container__Chat__2:hover,
+.Container__Chat__3:hover,
+.Container__Chat__4:hover,
+.Container__Chat__elementos:hover {
+    background-color: #1F618D;
+    color: #FFFFFF;
+    transition-timing-function: ease-in;
+    transform: scale(0.9);
+    transition-duration: 300ms;
+}
+/*********************************************************************************/
+
+/* Estilos para el contenedor principal */
+.Container__Principal {
+    display: flex;
+    flex-direction: column;
+    background-color: #EBF5FB;
+    border-color: #ffffff;
+    width: 100vw;
+}
+/* area del  header*/
+.header__img{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    margin: 5px;
+}
+.Container__Principal__header {
+    height: 20%;
+    background-color: rgb(180, 230, 230);
+}
+
+.Container__Principal__header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/*  area del chat */
+.Container__Principal__chat {
+    height: 100%;
+    
+    align-items: center;
+    background-color: rgb(228, 236, 236);
+}
+
+.Container__Principal__keysboar {
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    background-color: rgb(42, 70, 70);
+}
+
+/* area del mensaje */
+
+.Container__Principal__input {
+    height: 90%;
+    width: 100%;
+}
+
+.Container__Principal__input input {
+    height: 100%;
+    width: 98%;
+    background-color: #ebeff2;
+}
+
+/* area del enter */
+
+.Container__Principal__enter {
+    background-color: #4c95c5;
+    width: 20%;
+    height: 100%;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    color: #ddecf6;
+    justify-content: center;
+    font-size: 1.8em;
+}
+
+.Container__Principal__enter:hover {
+    color: #FFFFFF;
+    background-color: #225170;
+    transition-timing-function: ease-in;
+    transform: scale(1.0);
+    transition-duration: 300ms;
+    border-radius: 10%;
+}
+

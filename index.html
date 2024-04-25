@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>EjercicioChat</title>
+</head>
+<body>
+    
+    <div class="ContenedorTodo">
+        <!-- Contenedor de la lista de chats -->
+        <section class="Container__Chat" id="ContenedorChats">
+            <section class="Perfil">
+                <div class="Container__Chat__elementos">
+                    <img class="Chat__img" src="assets/images/yo.png" alt="">
+                    <div class="Chat__txt">
+                        <time class="Container__Chat__hora"> 9:50 </time>
+                        <h2 class="Container__Chat__h2">isabel</h2>
+                        <p class="Container__Chat__p"> la vida es dura f </p>
+                    </div>
+                    <!-- iamagen de activo o inacativo -->
+                    <div class="Chat__img">
+                        <button class="Chat__img__button" id="Chat__img__button">
+                            <img src="assets/images/activo.jpg" class="Chat__img__activo" id="Chat__img__activo" alt="">
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--boton  para crear chats-->
+            <div class="Container__Chat__new" >
+                <button id="newChat" class="newChat">New Chat</button>
+            </div>
+
+            <!-- Chat 2 -->
+            <section class="Container__Chat__2">
+                <div class="Container__Chat__elementos">
+                    <img class="Chat__img" src="assets/images/imagen1.png" alt="">
+                    <div class="Chat__txt">
+                        <time class="Container__Chat__hora"> 9:30 </time>
+                        <h2 class="Container__Chat__h2">rey canuto</h2>
+                        <p class="Container__Chat__p">voy a conquistar el mundo </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Chat 3 -->
+            <section class="Container__Chat__3">
+                <div class="Container__Chat__elementos">
+                    <img class="Chat__img" src="assets/images/imagen3.png" alt="">
+                    <div class="Chat__txt">
+                        <time class="Container__Chat__hora"> 9:10 </time>
+                        <h2 class="Container__Chat__h2">thors</h2>
+                        <p class="Container__Chat__p">perdon por no estar, thorfinn</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Chat 4 -->
+            <section class="Container__Chat__4">
+                <div class="Container__Chat__elementos">
+                    <img class="Chat__img" src="assets/images/imagen2.png" alt="">
+                    <div class="Chat__txt">
+                        <time class="Container__Chat__hora">10:15</time>
+                        <h2 class="Container__Chat__h2">thorfin</h2>
+                        <p class="Container__Chat__p">algún día llegaremos</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+        <!-- Contenedor principal del chat activo -->
+        <section class="Container__Principal">
+
+            <!-- Encabezado del chat activo -->
+            <header class="Container__Principal__header">
+                <section class="header__componentes" >
+            </section>
+            <section>
+                <img id="Chat__img" src="assets/images/hand.png" alt="Imagen de Perfil" class="header__img">
+            </section>
+            </header>
+
+            <!-- area del chat  -->
+            <section class="Container__Principal__chat" id="areachat">
+
+            </section>
+
+            <!-- area para escribir el mensaje -->
+            <section class="Container__Principal__keysboar">
+
+                <div class="Container__Principal__input">
+                    <input class="Container__Principal__input" id="mensajeInput" placeholder="Escriba su mensaje">
+                </div>
+                
+                <!-- area del enter -->
+                <div class="Container__Principal__enter" id="enter">
+                    <div class="enter">enter</div>
+                </div>
+            </section>
+        </section>
+    </div>
+    
+</body>
+
+<script src="assets/script.js/script.js"></script>
+</html>
+
